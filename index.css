@@ -1,0 +1,32 @@
+.body.html{
+    margin: 10px;
+    padding: 0;
+}
+
+.calculator{
+    display: inline-grid;
+    padding: 10px;
+    border-radius: 5%;
+    border: black;
+    border-style: solid;
+}
+
+#barCalculator{
+    height: 50px;
+    text-align: right;
+    border-radius: 5%;
+}
+
+#buttonTotalCalculator{
+    height: 172px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    padding: 0;
+    border-radius: 5%;
+    font-size: 12px;
+    text-align: center;
+}

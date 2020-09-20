@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Belajar JS</title>
+</head>
+<body>
+    <div class="calculator">
+        <table>
+            <tr>
+                <input type="text" id="barCalculator" readonly>
+            </tr>
+            <tr>
+                <td><button id="buttonTambah" value="+" onclick="operationToDisplay('+')">+</button></td>
+                <td><button id="buttonKurang" onclick="operationToDisplay('-')">-</button></td>
+                <td><button id="buttonKali" onclick="operationToDisplay('*')">*</button></td>
+                <td><button id="buttonBagi" onclick="operationToDisplay('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="buttonAngka" value="1" onclick="valueToDisplay('1')">1</button></td>
+                <td><button id="buttonAngka" value="2" onclick="valueToDisplay('2')">2</button></td>
+                <td><button id="buttonAngka" value="3" onclick="valueToDisplay('3')">3</button></td>
+                <td rowspan="3"><button id="buttonTotalCalculator" onclick="countValue()">=</button></td>
+            </tr>
+            <tr>
+                <td><button id="buttonAngka" value="4" onclick="valueToDisplay('4')">4</button></td>
+                <td><button id="buttonAngka" value="5" onclick="valueToDisplay('5')">5</button></td>
+                <td><button id="buttonAngka" value="6" onclick="valueToDisplay('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button id="buttonAngka" value="7" onclick="valueToDisplay('7')">7</button></td>
+                <td><button id="buttonAngka" value="8" onclick="valueToDisplay('8')">8</button></td>
+                <td><button id="buttonAngka" value="9" onclick="valueToDisplay('9')">9</button></td>
+            </tr>
+            <tr>
+                <td><button id="buttonAngka" value="0" onclick="valueToDisplay('0')">0</button></td>
+                <td><button id="buttonAngka" value="." onclick="valueToDisplay('.')">.</button></td>
+                <td><button id="buttonAllClear">AC</button></td>
+                <td><button id="buttonClear">C</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
